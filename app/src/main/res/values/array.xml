@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="puppies">
+        <item>puppy1</item>
+        <item>puppy2</item>
+        <item>puppy3</item>
+        <item>puppy4</item>
+        <item>puppy5</item>
+    </string-array>
+</resources>
