@@ -3,7 +3,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
-                tools:context="com.epicodus.photogallery.PuppyActivity"
+                tools:context="com.epicodus.photogallery.PuppyActivity$PlaceholderFragment"
               android:background="@android:color/white">
 
     <TextView
@@ -14,10 +14,10 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/puppyImage"
+        android:id="@+id/kittenImage"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
         android:scaleType="fitCenter"
-        android:src="@drawable/puppy1"/>
+        android:src="@drawable/puppy3"/>
 
 </LinearLayout>

@@ -1,10 +1,9 @@
 <resources>
     <string name="app_name">Photo Gallery</string>
 
-    <string name="title_section1">Home</string>
-    <string name="title_section2">Puppy</string>
-    <string name="title_section3">Kitten</string>
-    <string name="title_section4">Birds</string>
+    <string name="title_section1">Puppy</string>
+    <string name="title_section2">Kitten</string>
+    <string name="title_section3">Birds</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>

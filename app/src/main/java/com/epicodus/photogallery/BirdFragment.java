@@ -9,14 +9,14 @@ import android.widget.ImageView;
 /**
  * Created by YHoP on 10/22/15.
  */
-public class PuppyFragment extends android.support.v4.app.Fragment {
+public class BirdFragment extends android.support.v4.app.Fragment {
 
     public static final String ImageIDKey = "imagekey";
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
-        View view =inflater.inflate(R.layout.fragment_puppy, container, false);
+        View view =inflater.inflate(R.layout.fragment_bird, container, false);
 
         Bundle bundle = getArguments();
 
