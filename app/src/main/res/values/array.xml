@@ -7,4 +7,20 @@
         <item>puppy4</item>
         <item>puppy5</item>
     </string-array>
+
+    <string-array name="kittens">
+        <item>kittens1</item>
+        <item>kittens2</item>
+        <item>kittens3</item>
+        <item>kittens4</item>
+        <item>kittens5</item>
+    </string-array>
+
+    <string-array name="birds">
+        <item>birds1</item>
+        <item>birds2</item>
+        <item>birds3</item>
+        <item>birds4</item>
+        <item>birds5</item>
+    </string-array>
 </resources>

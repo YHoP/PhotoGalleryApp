@@ -1,4 +1,4 @@
-package com.epicodus.photogallery;
+package com.epicodus.photogallery.ui;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -14,6 +14,12 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+
+import com.epicodus.photogallery.R;
+import com.epicodus.photogallery.fragment.BirdFragment;
+import com.epicodus.photogallery.fragment.KittenFragment;
+import com.epicodus.photogallery.fragment.NavigationDrawerFragment;
+import com.epicodus.photogallery.fragment.PuppyFragment;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationDrawerFragment.NavigationDrawerCallbacks {
@@ -34,6 +40,9 @@ public class MainActivity extends AppCompatActivity
         setContentView(R.layout.activity_main);
 
         Button puppiesButton = (Button) findViewById(R.id.puppiesButton);
+        Button kittenButton = (Button) findViewById(R.id.kittenButton);
+        Button birdsButton = (Button) findViewById(R.id.birdsButton);
+
         puppiesButton.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
@@ -42,6 +51,21 @@ public class MainActivity extends AppCompatActivity
             }
         });
 
+        kittenButton.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, PuppyActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        birdsButton.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, PuppyActivity.class);
+                startActivity(intent);
+            }
+        });
 
         mNavigationDrawerFragment = (NavigationDrawerFragment)
                 getSupportFragmentManager().findFragmentById(R.id.navigation_drawer);
@@ -74,9 +98,7 @@ public class MainActivity extends AppCompatActivity
         FragmentManager fragmentManager = getSupportFragmentManager();
         // fragmentManager.beginTransaction().replace(R.id.container, PlaceholderFragment.newInstance(position + 1)).commit();
 
-        fragmentManager.beginTransaction()
-                .replace(R.id.container, myFragment)
-                .commit();
+        fragmentManager.beginTransaction().replace(R.id.container, myFragment).commit();
     }
 
     public void onSectionAttached(int number) {

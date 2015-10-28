@@ -1,4 +1,4 @@
-package com.epicodus.photogallery;
+package com.epicodus.photogallery.adapter;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -6,6 +6,9 @@ import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
+
+import com.epicodus.photogallery.fragment.PuppyFragment;
+import com.epicodus.photogallery.R;
 
 /**
  * Created by YHoP on 10/22/15.

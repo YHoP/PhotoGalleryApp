@@ -1,4 +1,4 @@
-package com.epicodus.photogallery;
+package com.epicodus.photogallery.fragment;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -6,17 +6,19 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 
+import com.epicodus.photogallery.R;
+
 /**
  * Created by YHoP on 10/22/15.
  */
-public class KittenFragment extends android.support.v4.app.Fragment {
+public class PuppyFragment extends android.support.v4.app.Fragment {
 
     public static final String ImageIDKey = "imagekey";
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
-        View view =inflater.inflate(R.layout.fragment_kitten, container, false);
+        View view =inflater.inflate(R.layout.fragment_puppy, container, false);
 
         Bundle bundle = getArguments();
 
